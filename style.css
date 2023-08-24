@@ -1,0 +1,91 @@
+/* Resetear los márgenes y el padding por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo pantalla y div padre de todo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Estilos para el contenedor del post */
+.container-post {
+  background-color:white;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el encabezado del post */
+
+/*Padre de los header*/
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.postHead-icon {
+  font-size: 24px;
+  margin-right: 12px;
+}
+
+/*este elemento tomará todo el espacio disponible dentro del contenedor que no haya sido ocupado por otros elementos con flex*/
+.postHead_Text {
+  flex: 1;
+}
+
+.postHead_Text h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.postHead_Text p {
+  font-size: 14px;
+  color: #666666;
+}
+
+.post-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para el pie de foto y los iconos de reacciones */
+.post-footer {
+  padding: 12px;
+}
+
+.post-footer-icons {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+
+.post-footer-LeftIcons i,
+.post-footer-RightIcons i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #333333;
+  cursor: pointer;
+}
+
+.post-likes {
+  font-size: 14px;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.post-text {
+  font-size: 14px;
+  color: #333333;
+}
