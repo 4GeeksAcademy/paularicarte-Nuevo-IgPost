@@ -25,8 +25,7 @@ body {
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos para el encabezado del post */
-
+/*HEADER*/
 /*Padre de los header*/
 .post-header {
   display: flex;
@@ -55,12 +54,13 @@ body {
   color: #666666;
 }
 
+/*IMAGEN*/
 .post-img img {
   max-width: 100%;
   height: auto;
 }
 
-/* Estilos para el pie de foto y los iconos de reacciones */
+/* FOOTER */
 .post-footer {
   padding: 12px;
 }
